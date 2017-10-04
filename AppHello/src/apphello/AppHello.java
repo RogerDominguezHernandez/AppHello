@@ -17,7 +17,7 @@ public class AppHello {
     public static void main(String[] args) {
         int a=5, b=9, c=0;
         System.out.println("Mi primer test");
-        c=(a*b+2);
+        c=(a*b+2)/0;
         System.out.println("Pull");
         System.out.println("El resultado de la suma es " + c);
     }
